@@ -14,3 +14,9 @@ In your command-line interface, execute the following command to install Materia
 ```
 npm install @mui/material @emotion/react @emotion/styled
 ```
+
+### Step 3: Using Material-UI icons
+In your command-line interface, execute the following command to install Material-UI and its required dependencies:
+```
+npm i @mui/icons-material
+```

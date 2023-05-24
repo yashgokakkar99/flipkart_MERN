@@ -11,7 +11,4 @@ Run the following command to create a new React app:
 ```shell
 npx create-react-app client
 
-### Step 2: Installing materialUI from mui.com
 
-```shell
-npm install @mui/material @emotion/react @emotion/styled

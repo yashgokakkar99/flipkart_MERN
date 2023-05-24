@@ -10,5 +10,3 @@ Run the following command to create a new React app:
 
 ```shell
 npx create-react-app client
-
-

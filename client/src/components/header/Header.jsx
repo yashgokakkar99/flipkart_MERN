@@ -1,5 +1,7 @@
 import React from 'react'
 import {AppBar, Toolbar, styled, Box, Typography} from '@mui/material';
+import Search from './Search';
+import CustomButton from './CustomButton';
 
 const StyledHeader = styled(AppBar)`
     background: #2874f0;
@@ -27,7 +29,7 @@ const Header = () => {
     const subURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png';
   return (
     <StyledHeader>
-        <Toolbar>
+        <Toolbar style={{minHeight:55}}>
             <StyledLogo>
             <img src={logoURL} alt="logo" style={{width:75}}/>
             <Box style={{display:'flex'}}>
@@ -37,6 +39,10 @@ const Header = () => {
                 <PlusLogo src={subURL} alt='sub-logo'/>
             </Box>
             </StyledLogo>
+            <Search/>
+            <Box>
+                <CustomButton/>
+            </Box>
         </Toolbar>
     </StyledHeader>
   )

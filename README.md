@@ -20,3 +20,5 @@ In your command-line interface, execute the following command to install Materia
 ```
 npm i @mui/icons-material
 ```
+### Day 1
+![Screenshot (68)](https://github.com/yashgokakkar99/flipkart_MERN/assets/87797220/ac17e671-50ce-481b-9c81-bbd1f9773211)

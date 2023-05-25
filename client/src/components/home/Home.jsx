@@ -1,9 +1,13 @@
-import React from 'react'
+import {Fragment} from 'react'
 import NavBar from './NavBar';
+import Banner from './Banner';
 
 function Home() {
   return (
-    <NavBar/>
+    <Fragment>
+      <NavBar/>
+      <Banner/>
+    </Fragment>
   )
 }
 

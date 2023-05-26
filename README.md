@@ -33,5 +33,9 @@ import 'react-multi-carousel/lib/styles.css';
 ### Day 2
 https://github.com/yashgokakkar99/flipkart_MERN/assets/87797220/e125fe22-f5ad-4abd-af50-0965b418bd49
 
+### Step 4: Creating Server
+
+### Day 3
+Server Created using mongoose, express, mongodbcloud
 
 
